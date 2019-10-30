@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
+import { HomeComponent } from './home/home.component';
+import { ResumeComponent } from './resume/resume.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutMeComponent,
-    NavMenuComponent
+    NavMenuComponent,
+    HomeComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
