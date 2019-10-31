@@ -1,0 +1,9 @@
+hr {
+  border: none;
+  height: 1px;
+  background-color: #333; /* Modern Browsers */
+}
+
+li {
+  padding-bottom: 5px;
+}
