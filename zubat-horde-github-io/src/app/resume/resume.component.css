@@ -5,3 +5,7 @@ li {
 p {
   font-size: 20px;
 }
+
+#skills {
+  margin-left: 5px !important;
+}
