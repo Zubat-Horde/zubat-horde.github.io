@@ -9,3 +9,14 @@ p {
 #skills {
   margin-left: 5px !important;
 }
+
+@media screen and (max-width: 991px) {
+  #hideImg {
+    display: none;
+  }
+  #onHide {
+    margin-top: -25px !important;
+    margin-left: 15px !important;
+    margin-right: 10px !important;
+  }
+}
