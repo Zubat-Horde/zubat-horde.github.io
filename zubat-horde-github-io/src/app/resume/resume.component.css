@@ -20,3 +20,9 @@ p {
     margin-right: 10px !important;
   }
 }
+
+@media screen and (max-width: 411px) {
+  h5 {
+    text-align: center;
+  }
+}
