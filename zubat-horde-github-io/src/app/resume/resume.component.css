@@ -10,6 +10,16 @@ p {
   margin-left: 5px !important;
 }
 
+@media screen and (max-width: 360px) {
+  #hideLogo {
+    display: none;
+  }
+  #hidden {
+    margin-left: 15px !important;
+    margin-right: 10px !important;
+  }
+}
+
 @media screen and (max-width: 991px) {
   #hideImg {
     display: none;
@@ -21,7 +31,7 @@ p {
   }
 }
 
-@media screen and (max-width: 411px) {
+@media screen and (max-width: 450px) {
   h5 {
     text-align: center;
   }
