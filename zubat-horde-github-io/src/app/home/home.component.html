@@ -14,8 +14,8 @@
       <br />
       <h4>MY LIFE BY YEAR:</h4>
       <mat-accordion>
-        <mat-expansion-panel>
-          <mat-expansion-panel-header (afterExpand)="clickMe(year2020)">
+        <mat-expansion-panel (afterExpand)="focusMe(year2020)">
+          <mat-expansion-panel-header>
             <mat-panel-title>
               <h5 id="2020">2020</h5>
             </mat-panel-title>
@@ -23,7 +23,7 @@
           <app-year-twentytwenty></app-year-twentytwenty>
         </mat-expansion-panel>
 
-        <mat-expansion-panel (afterExpand)="clickMe(year2019)">
+        <mat-expansion-panel (afterExpand)="focusMe(year2019)">
           <mat-expansion-panel-header>
             <mat-panel-title>
               <h5 id="2019">2019</h5>
@@ -32,7 +32,7 @@
           <app-year-twentynineteen></app-year-twentynineteen>
         </mat-expansion-panel>
 
-        <mat-expansion-panel (afterExpand)="clickMe(year2018)">
+        <mat-expansion-panel (afterExpand)="focusMe(year2018)">
           <mat-expansion-panel-header>
             <mat-panel-title>
               <h5 id="2018">2018</h5>
@@ -41,8 +41,8 @@
           <app-year-twentyeighteen></app-year-twentyeighteen>
         </mat-expansion-panel>
 
-        <mat-expansion-panel>
-          <mat-expansion-panel-header (afterExpand)="clickMe(year2017)">
+        <mat-expansion-panel (afterExpand)="focusMe(year2017)">
+          <mat-expansion-panel-header>
             <mat-panel-title>
               <h5 id="2017">2017</h5>
             </mat-panel-title>
@@ -50,8 +50,8 @@
           <app-year-twentyseventeen></app-year-twentyseventeen>
         </mat-expansion-panel>
 
-        <mat-expansion-panel>
-          <mat-expansion-panel-header (afterExpand)="clickMe(year2016)">
+        <mat-expansion-panel (afterExpand)="focusMe(year2016)">
+          <mat-expansion-panel-header>
             <mat-panel-title>
               <h5 id="2016">2016</h5>
             </mat-panel-title>
@@ -68,7 +68,7 @@
       </div>
       <br />
       <mat-accordion>
-        <mat-expansion-panel (afterExpand)="clickMe(github)">
+        <mat-expansion-panel (afterExpand)="focusMe(github)">
           <mat-expansion-panel-header>
             <mat-panel-title>
               <h6 id="github">My Github Accounts</h6>
@@ -84,7 +84,7 @@
           </ul>
         </mat-expansion-panel>
 
-        <mat-expansion-panel (afterExpand)="clickMe(learn)">
+        <mat-expansion-panel (afterExpand)="focusMe(learn)">
           <mat-expansion-panel-header>
             <mat-panel-title>
               <h6 id="learn">My Learning Sites</h6>
@@ -102,7 +102,7 @@
           </ul>
         </mat-expansion-panel>
 
-        <mat-expansion-panel (afterExpand)="clickMe(community)">
+        <mat-expansion-panel (afterExpand)="focusMe(community)">
           <mat-expansion-panel-header>
             <mat-panel-title>
               <h6 id="community">Community Links</h6>

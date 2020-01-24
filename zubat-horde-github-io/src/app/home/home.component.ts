@@ -20,7 +20,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
-  clickMe(id: string) {
+  focusMe(id: string) {
     const element = document.getElementById(id);
     element.scrollIntoView({behavior: 'smooth', block: 'center', inline: 'nearest'});
   }
