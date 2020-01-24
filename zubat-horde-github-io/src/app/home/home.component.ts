@@ -12,6 +12,9 @@ export class HomeComponent implements OnInit {
   year2018 = '2018';
   year2017 = '2017';
   year2016 = '2016';
+  github = 'github';
+  learn = 'learn';
+  community = 'community';
   constructor() { }
 
   ngOnInit() {

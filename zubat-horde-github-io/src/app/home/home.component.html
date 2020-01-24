@@ -68,10 +68,10 @@
       </div>
       <br />
       <mat-accordion>
-        <mat-expansion-panel>
+        <mat-expansion-panel (afterExpand)="clickMe(github)">
           <mat-expansion-panel-header>
             <mat-panel-title>
-              <h6>My Github Accounts</h6>
+              <h6 id="github">My Github Accounts</h6>
             </mat-panel-title>
           </mat-expansion-panel-header>
           <ul class="nav nav-pills flex-column">
@@ -84,10 +84,10 @@
           </ul>
         </mat-expansion-panel>
 
-        <mat-expansion-panel>
+        <mat-expansion-panel (afterExpand)="clickMe(learn)">
           <mat-expansion-panel-header>
             <mat-panel-title>
-              <h6>My Learning Sites</h6>
+              <h6 id="learn">My Learning Sites</h6>
             </mat-panel-title>
           </mat-expansion-panel-header>
           <ul class="nav nav-pills flex-column">
@@ -102,10 +102,10 @@
           </ul>
         </mat-expansion-panel>
 
-        <mat-expansion-panel>
+        <mat-expansion-panel (afterExpand)="clickMe(community)">
           <mat-expansion-panel-header>
             <mat-panel-title>
-              <h6>Community Links</h6>
+              <h6 id="community">Community Links</h6>
             </mat-panel-title>
           </mat-expansion-panel-header>
           <ul class="nav nav-pills flex-column">
